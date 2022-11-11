@@ -1,0 +1,17 @@
+public class BuildingsAndBricksTester {
+    new Brick testBrick = Brick();
+    
+    testBrick.setLength(10);
+    testBrick.setWidth(10);
+    
+    new Building testBuilding = Building(10, 10, testBrick);
+
+    //Test brick getters
+
+    if (testBrick.getWidth() == 10) {
+        System.out.println("BRICK WIDTH - PASS");
+    }
+    else {
+        
+    }
+}
